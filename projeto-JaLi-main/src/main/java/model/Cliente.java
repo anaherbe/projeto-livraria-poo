@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import main.java.model.enums.Sexo;
 
 public class Cliente {
+    //comentário legal!!!!!!!!!!
     private String nome;
     private Sexo sexo;
     private String cpf;
