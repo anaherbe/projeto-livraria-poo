@@ -4,11 +4,15 @@ import main.java.model.Cliente;
 import main.java.model.ItemPedido;
 import main.java.model.Livro;
 import main.java.model.Pedido;
+import main.java.model.Autor;
 
 public class Application {
     public static void main(String[] args) {
-        Livro livro1 = new Livro(1, "pipoca", "Paula", 20);
-        Livro livro2 = new Livro(2, "banana", "Ana", 10);
+        Autor autor1 = new Autor("FulanoDetawn");
+        Autor autor2 = new Autor("jojotodinho");
+
+        Livro livro1 = new Livro(0, null, autor1, 0);
+        Livro livro2 = new Livro(0, null, autor2, 0);
 
         Cliente cliente1 = new Cliente("Thiago");
 

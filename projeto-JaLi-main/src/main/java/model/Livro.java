@@ -3,10 +3,10 @@ package main.java.model;
 public class Livro {
     private int id;
     private String titulo;
-    private String autor; 
+    private Autor autor; 
     private double preco;
     
-    public Livro(int id, String titulo, String autor, double preco) {
+    public Livro(int id, String titulo, Autor autor, double preco) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
@@ -30,11 +30,11 @@ public class Livro {
         this.titulo = titulo;
     }
 
-    public String getAutor() {
+    public Autor getAutor() {
         return autor;
     }
 
-    public void setAutor(String autor) {
+    public void setAutor(Autor autor) {
         this.autor = autor;
     }
 
